@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --pastel-1: #ffeef6;
+  --pastel-2: #fff4e6;
+  --pastel-3: #eaf7ff;
+  --bg: #ffffff;
+  --accent: #f7c8d9; /* ejemplo para detalles */
+  --text: #222;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Robot, 'Helvetica Neue', Arial;
+}

@@ -1,0 +1,43 @@
+/* Sidebar */
+.sidebar {
+  min-height: 100vh;
+  border-right: 1px solid #eee;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+/* Título / Logo */
+.sidebar h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #d17b88; /* rosado elegante */
+  text-align: center;
+}
+
+/* Links */
+.sidebar nav a {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+  padding: 12px 15px;
+  border-radius: 0;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #d17b88;
+  transform: translateX(5px);
+}
+
+/* Activo */
+.sidebar a.active {
+  color: #d17b88;
+  font-weight: bold;
+}
