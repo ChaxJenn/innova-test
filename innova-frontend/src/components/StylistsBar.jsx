@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/styilistsBar.css'
+import {Card} from "react-bootstrap"
 
 function StylistsBar() {
     const stylists = [
@@ -33,8 +34,8 @@ function StylistsBar() {
                             style={{ width: "100px", height: "100px", objectFit: "cover" }}
                         />
                         <Card.Body>
-                            <Card.title>{stylists.name}</Card.title>
-                            <Card.Text className="text-muted">{stylist.specialty}</Card.Text>
+                            <Card.Title>{stylists.name}</Card.Title>
+                            <Card.Text className="text-muted">{stylists.name}</Card.Text>
                         </Card.Body>
                     </Card>
                 </div>
