@@ -1,9 +1,0 @@
-.stylists-bar {
-    scroll-snap-type: x mandatory;
-    margin-bottom: 50px;
-}
-
-.stylists-bar > div {
-    scroll-snap-align: start;
-}
-
