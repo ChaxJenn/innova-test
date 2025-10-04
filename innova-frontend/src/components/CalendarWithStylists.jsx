@@ -32,7 +32,7 @@ function CalendarWithStylists({ stylists = defaultStylists }) {
 });
 
   // Generar horas de 7am a 7pm
-    const hours = Array.from({ length: 13 }, (_, i) => `${i + 7}:00`);
+    const hours = Array.from({ length: 17 }, (_, i) => `${i + 5}:00`);
 
     const getAppointment = (stylistId, hour) => {
         const dateKey = currentDate.toISOString().split("T")[0];
