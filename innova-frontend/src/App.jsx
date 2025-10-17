@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
-import Servicios from "./pages/Servicios";
+import Inventario from "./pages/Inventario";
 import CalendarPages from "./pages/CalendarPages";
 
 function App () {
@@ -16,7 +16,7 @@ function App () {
           <div className="col-12 col-md-9 col-lg-10 p-4 bg-white">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/servicios" element={<Servicios />} />
+              <Route path="/inventario" element={<Inventario />} />
               <Route path="/calendario" element={<CalendarPages />} />
             </Routes>
           </div>

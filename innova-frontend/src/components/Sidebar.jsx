@@ -11,7 +11,7 @@ function Sidebar() {
             <nav className="d-flex flex-column p-3">
                 <NavLink to={"/"} element="mb-3 text-decoration-none">Dashboard</NavLink>
                 <NavLink to={"/calendario"} element="mb-3 text-decoration-none">Calendario</NavLink>
-                <NavLink to={"/servicios"} element="mb-3 text-decoration-none">Servicios</NavLink>
+                <NavLink to={"/inventario"} element="mb-3 text-decoration-none">Servicios</NavLink>
                 <NavLink to={"/reservas"} element="mb-3 text-decoration-none">Reservas</NavLink>
                 <NavLink to={"/estilistas"} element="mb-3 text-decoration-none">Estilistas</NavLink>
 
